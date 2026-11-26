@@ -1,0 +1,18 @@
+{
+  "name": "Habit Tracker",
+  "short_name": "Habits",
+  "description": "Track habits, tasks and focus sessions with achievements that follow your progress.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#1c1917",
+  "theme_color": "#1034a6",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1034a6" />
+    <title>Offline · Habit Tracker</title>
+    <style>
+      body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #1c1917; color: #f5f5f4; font-family: system-ui, sans-serif; }
+      main { max-width: 30rem; padding: 2rem; text-align: center; }
+      h1 { color: #ffffff; font-size: 1.6rem; }
+      p { color: #d6d3d1; line-height: 1.6; }
+      button { margin-top: 1rem; padding: 0.7rem 1.4rem; border: 0; border-radius: 0.6rem; background: #1034a6; color: #fff; font-weight: 600; cursor: pointer; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>You are offline</h1>
+      <p>
+        This page is not cached yet. Previously viewed pages, tasks and habits are still available.
+        Your changes will sync when the connection returns.
+      </p>
+      <button type="button" onclick="location.reload()">Try again</button>
+    </main>
+  </body>
+</html>
